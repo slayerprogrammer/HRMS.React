@@ -31,7 +31,7 @@ export default function Index() {
 
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
-          src='https://www.akinsoft.com.tr/kurumsal-kaynak-planlamasi/resim/insan-kaynaklari/insan-kaynaklari-cozumleri.png'
+          src='https://vizyonpersonel.com/wp-content/uploads/2019/11/secme.yerlestirme-2-e1573017525582.jpg'
           alt="..."
         />
       </section>

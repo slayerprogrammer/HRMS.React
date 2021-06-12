@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../layouts/Navbars/IndexNavbar'
+import { Link } from "react-router-dom";
+
 
 export default function Resume() {
     return (
@@ -81,7 +83,7 @@ export default function Resume() {
                         src={require("../assets/img/team-3-800x800.jpg").default}
                         className="shadow-lg rounded-full max-w-120-px"
                     />
-                        <button className="bg-emerald-500 mt-4 text-white active:bg-emerald-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+                        <button className="bg-purple-500 mt-4 text-white active:bg-pruple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
                             Fotoğraf Yükle
                         </button>
                 </div>
@@ -172,11 +174,26 @@ export default function Resume() {
                   />
                 </div>
               </div>
+
+           
             </div>
-              </div>
             <hr className="mt-6 border-b-1 border-blueGray-300" />
+            <div className="flex flex-wrap justify-end">
+                <Link to="/resumeExperiences">
+                <button className="bg-emerald-500 mt-4 text-white active:bg-emerald-600 font-bold uppercase text-xs px-6 py-3 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150" type="button">
+                Kaydet ve İlerle
+            </button>
+                </Link>
+            
+            </div>
+
+              </div>
+            
+            
           </form>
+          
         </div>
+
       </div>
             </div>
         </div>

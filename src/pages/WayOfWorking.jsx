@@ -8,7 +8,7 @@ export default function WayOfWorking() {
     useEffect(() => {
         let wayOfWorkingService = new WayOfWorkingService();
         wayOfWorkingService.getWorking().then(result => setWorkings(result.data.data))
-    })
+    },[])
 
     return (
         <>
